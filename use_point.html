@@ -1,0 +1,443 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/icofont.min.css">
+  <script src="https://kit.fontawesome.com/3706214aa1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" />
+  <style>
+    input:checked+label img {
+      border: 1px solid #c8aa82;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="slider-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+
+          <nav class="w-100 navbar navbar-expand-lg navbar-dark bg-dark text-white mt-3">
+            <a class="navbar-brand " href="index.html"><img src="images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse position-relative" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">الرئيسية
+                    <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="offer.html">العروض</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="calc-points.html"> حاسبة النقاط</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="card.html"> انواع العضويات </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html"> الأسئلة الشائعة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="partner.html">الشركاء</a>
+                </li>
+              </ul>
+              <span class="navbar-text ml-2">
+                <a href="#" class=" p-3"> تسجيل الدخول </a>
+              </span>
+              <span class="navbar-text">
+                <a href="#" class="p-3"> عضو جديد </a>
+              </span>
+
+
+            </div>
+          </nav>
+
+
+        </div>
+      </div>
+      <div class=" internal-title col-md-12 py-5">
+        <div class="hint ">
+          كل الماركات في خدمتك</div>
+        <h2 class="m-0  ">
+          استبدال النقاط
+
+
+        </h2>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+  <section>
+
+    <div class="mypadding  profile  bagbg">
+      <div class=" pt-5 pb-5   container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+
+
+            <div class="row">
+              <div class="col-3">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link active mb-3" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                    role="tab" aria-controls="v-pills-home" aria-selected="true"> <i class="fas fa-receipt"
+                      aria-hidden="true"></i> قسائم الشراء</a> </a>
+                  <a class="nav-link  mb-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                    role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fas fa-building"></i> حجز
+                    فندق</a>
+                  <a class="nav-link  mb-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                    role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-utensils"></i>
+                    المطاعم</a>
+                  <a class="nav-link  mb-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                    role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+
+
+                    <div class="card-header text-right border-0 px-5">
+                      استخراج قسيمة الشراء
+
+                    </div>
+
+                    <div class="card-body px-5 border border-top-0 ">
+
+                      <div class="alert alert-info text-center font-weight-bold " role="alert">
+                        رصيد النقاط الحالي : 50,000 نقطة
+                      </div>
+
+                      <form class="text-right">
+                        <div class="form-group mb-3">
+                          <label for="formGroupExampleInput" class="form-label"> عدد النقاط التي تود تحويلها</label>
+                          <input type="text" class="form-control" id="" placeholder="  عدد النقاط">
+                        </div>
+
+                        <div class="form-group ">
+                          <label for="exampleFormControlSelect1" class="form-label"> اختيار الشريك</label>
+
+                          <div class="form-check allpartner p-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                              value="option1">
+                            <label class="form-check-label sad" for="exampleRadios1">
+                              <img src="images/partner.png" class="img-fluid" alt="" />
+
+                            </label>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                              value="option2">
+                            <label class="form-check-label normal" for="exampleRadios2">
+                              <img src="images/partner.png" class="img-fluid" alt="" />
+
+                            </label>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
+                              value="option3">
+                            <label class="form-check-label good" for="exampleRadios3">
+                              <img src="images/partner.png" class="img-fluid" alt="" />
+
+                            </label>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4"
+                              value="option3">
+                            <label class="form-check-label habby" for="exampleRadios4">
+                              <img src="images/partner.png" class="img-fluid" alt="" />
+                            </label>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-golden px-5 ">
+                        تنفيذ الطلب </button>
+
+                      </form>
+                    </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                    <div class="  mb-4">
+                      <div class="card-header border-0">
+                        تفاصيل الحجز
+
+                      </div>
+
+                      <div class="card-body border border-top-0">
+                        <form>
+                          <div class="form-row">
+
+                            <div class="form-group col-md-6">
+                              <label for="inputAddress"> الوجهة </label>
+                              <input type="text" class="form-control" id="inputAddress"
+                                placeholder=" المدينة او العنوان">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputAddress2"> التواريخ </label>
+
+                              <div class="form-group">
+                                <div class="form-row">
+                                  <div class="col-md-6  "> <input type='text' id="datePicker"
+                                      placeholder="النزول في الفندق" class="form-control" />
+                                    <!-- <i class="far fa-calendar-alt hotel-date"></i> -->
+
+                                  </div>
+                                  <div class="col-md-6  "> <input type='text' placeholder="المغادرة من الفندق"
+                                      id="datePickerleave" class="form-control" /><i
+                                      class="far fa-calendar-alt hotel-date"></i> </div>
+
+
+                                </div>
+
+
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="birthdate"> عدد الغرف</label>
+                              <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                </div>
+
+
+                              </div>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                              <label for="birthdate"> عدد الافراد </label>
+                              <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="form-group col-md-12">
+                            <label for="inputAddress2"> </label>
+                            <div class="">
+                              <button type="button" class="btn btn-golden"> 
+                                البحث عن فنادق
+                              </button>
+                            </div>
+
+                          </div>
+
+                        </form>
+
+
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab">
+
+
+                    <div class="  mb-4">
+                      <div class="card-header border-0">
+                        تفاصيل الحجز
+
+                      </div>
+
+                      <div class="card-body border border-top-0">
+                        <form>
+                          <div class="form-row">
+
+                            <div class=" col-md-6">
+                              <label for="birthdate"> أختيار المطاعم </label>
+                              <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option> اسم المطعم </option>
+                                      <option> اسم المطعم </option>
+                                      <option> اسم المطعم </option>
+                                      <option> اسم المطعم </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <label for="birthdate"> عدد المقاعد</label>
+                              <div class="form-row">
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+                                  </div>
+                                </div>
+
+
+                              </div>
+                            </div>
+
+
+                          </div>
+
+
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputAddress2"> تاريخ الحجز </label>
+
+                              <div class="form-group position-relative">
+                                <input type='text' id="datePicker" placeholder=" أدخل  التاريخ "
+                                  class="form-control " />
+                                <i class="far fa-calendar-alt hotel-date"></i>
+                              </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputAddress2"> موعد الحجز </label>
+
+                              <div class="form-group position-relative">
+                                <input type="time" id="appt"  class="form-control " name="appt">
+
+                              </div>
+                            </div>
+
+                        
+
+
+                          </div>
+
+                          <div class="form-group col-md-12">
+                            <label for="inputAddress2"> </label>
+                            <div class="">
+                              <button type="button" class="btn btn-golden">
+                              تاكيد الحجز
+                              </button>
+                            </div>
+
+                          </div>
+
+                        </form>
+
+
+                      </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab">
+                    ...</div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- start footer  -->
+  <footer>
+    <div class="container">
+      <div class="col-md-12 d-flex flex-md-row   flex-column justify-content-md-between  align-items-center pt-5 pb-5 ">
+        <div class="d-flex  my-2  justify-content-center align-items-center">
+          <a href="https://www.facebook.com/Zincoint" target="_blank"> <i class="fab fa-facebook-f"></i> </a>
+          <a href="https://www.snapchat.com/add/zain-int" target="_blank"> <i class="fab fa-snapchat-ghost"></i>
+          </a>
+          <a href="https://twitter.com/Zincoint?fbclid=IwAR3EUzkThA0k230BzQ6TVXX-5TbpcBGJ6HafNWzCk61LcjwUeCuMWtNEv8E"
+            target="_blank"> <i class="fab fa-twitter"></i> </a>
+          <a href="https://www.instagram.com/zain-int" target="_blank"> <i class="fab fa-instagram"></i> </a>
+        </div>
+        <div class="my-2">
+          <img src="images/footer-logo.png" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="my-2">
+          <a href="http://">شروط الاستخدام </a>
+          <a href="http://"> سياسة الخصوصية </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/litepicker/2.0.11/litepicker.js  "></script>
+
+
+  <script>
+    $(function () {
+
+      let datePicker = document.getElementById('datePicker');
+      let picker = new Litepicker({
+        element: datePicker,
+        format: 'DD MMMM YYYY'
+      });
+
+      let datePickerleave = document.getElementById('datePickerleave');
+      let pickerr = new Litepicker({
+        element: datePickerleave,
+        format: 'DD MMMM YYYY'
+      });
+
+      // let dateRangePicker = document.getElementById('dateRangePicker');
+      // let pickerRange = new Litepicker({
+      //   element: dateRangePicker,
+      //   format: 'DD MMMM YYYY',
+      //   singleMode: false,
+      // });
+    });
+  </script>
+
+</body>
+
+</html>
